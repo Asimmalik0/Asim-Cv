@@ -1,0 +1,119 @@
+export default function CVWebsite() {
+  return (
+    <div className="p-8 max-w-4xl mx-auto text-gray-800 bg-gradient-to-br from-blue-50 to-purple-100 min-h-screen">
+      <header className="text-center mb-10">
+        <h1 className="text-4xl font-bold text-purple-800">Asim Malik</h1>
+        <p className="text-sm mt-1 text-gray-700">Al Nahda 2, Dubai, UAE | +971 55 883 5228 | 7asimmalik@gmail.com</p>
+        <a
+          href="https://linkedin.com/in/asimahmad07"
+          className="text-blue-600 hover:underline"
+          target="_blank"
+        >
+          LinkedIn: asimahmad07
+        </a>
+      </header>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold border-b pb-2 mb-4 text-purple-900">Professional Summary</h2>
+        <p>
+          Strategic digital marketing professional and Operations Team Leader at Vaco Binary Semantics, on-site with Google. Highly skilled in digital strategy, people and process management, and supporting Google Hotel Ads Price Accuracy across MENA, GCC, and APEC. Proven track record in KPI tracking, performance optimization, campaign performance, stakeholder management, and driving business results through data-driven insights and collaboration.
+        </p>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold border-b pb-2 mb-4 text-purple-900">Core Competencies</h2>
+        <ul className="list-disc pl-6 grid grid-cols-2 gap-2">
+          <li>Operations Management</li>
+          <li>Sales & Client Acquisition</li>
+          <li>Hotel Ads PA</li>
+          <li>Process Optimization</li>
+          <li>Team Leadership & Coaching</li>
+          <li>Data Analytics (Power BI, Excel)</li>
+          <li>Client Relationship Management</li>
+          <li>KPI Tracking</li>
+          <li>Lean Six Sigma</li>
+          <li>SEO/SEM</li>
+          <li>Stakeholder Collaboration</li>
+          <li>Digital Strategy & Performance Marketing</li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold border-b pb-2 mb-4 text-purple-900">Professional Experience</h2>
+        <div>
+          <h3 className="text-xl font-bold text-purple-800">Vaco Binary Semantics | On-site at Google, India</h3>
+          <p className="italic">Operations Team Lead (Apr 2023 – Feb 2025)</p>
+          <ul className="list-disc pl-6">
+            <li>Led daily operations and ensured high-quality service delivery.</li>
+            <li>Coached team using KPIs and managed escalations via Bugniser.</li>
+            <li>Collaborated with teams to resolve issues and improve efficiency.</li>
+            <li>Drove continuous improvement through performance data analysis.</li>
+          </ul>
+          <p className="italic mt-2">Associate Team Lead Operations (Oct 2022 – Apr 2023)</p>
+          <ul className="list-disc pl-6">
+            <li>Managed escalations and led customer-centric initiatives.</li>
+            <li>Developed training programs improving workflow and performance.</li>
+          </ul>
+          <p className="italic mt-2">Subject Matter Expert (Sep 2021 – Oct 2022)</p>
+          <ul className="list-disc pl-6">
+            <li>Supervised pricing accuracy and enhanced client trust.</li>
+          </ul>
+          <p className="italic mt-2">Associate Analyst (Oct 2019 – Sep 2021)</p>
+          <ul className="list-disc pl-6">
+            <li>Handled Google Hotel Ads for JW Marriott and MMT with 99% ad accuracy.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold border-b pb-2 mb-4 text-purple-900">Education</h2>
+        <ul className="list-disc pl-6">
+          <li>MBA in Marketing & IT – University of Kashmir (Mar 2020)</li>
+          <li>BBA in Marketing & IT – University of Kashmir (Sep 2018)</li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold border-b pb-2 mb-4 text-purple-900">Certifications</h2>
+        <ul className="list-disc pl-6">
+          <li>Google Digital Marketing Certification (2023)</li>
+          <li>Leading Teams: Developing as a Leader – UIUC</li>
+          <li>Lean Six Sigma Yellow Belt (Expected June 2025)</li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold border-b pb-2 mb-4 text-purple-900">Technical Skills</h2>
+        <ul className="list-disc pl-6 grid grid-cols-2 gap-2">
+          <li>Google Ads</li>
+          <li>Hotel Centre</li>
+          <li>Bugniser</li>
+          <li>MS Office Suite</li>
+          <li>Power BI</li>
+          <li>SAP</li>
+          <li>Oracle</li>
+          <li>Advanced Excel</li>
+          <li>KPI Tracking</li>
+          <li>Data Visualization</li>
+          <li>Lean Six Sigma</li>
+          <li>Agile</li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold border-b pb-2 mb-4 text-purple-900">Key Projects</h2>
+        <ul className="list-disc pl-6">
+          <li>Myra Medicine: Increased customer retention by 30% via data-driven campaigns.</li>
+          <li>Kashmir Mercantile Bank: Improved customer engagement by 25% through digital transformation insights.</li>
+        </ul>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold border-b pb-2 mb-4 text-purple-900">Volunteering</h2>
+        <p>
+          Co-founder of Inspire Kashmir NGO – led education initiatives for 100+ students, addressing youth empowerment and social issues in the community.
+        </p>
+      </section>
+    </div>
+  );
+}
